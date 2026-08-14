@@ -1,0 +1,14 @@
+{
+  "name": "whatsapp-local-gateway",
+  "version": "1.0.0",
+  "description": "Local Polling WhatsApp Gateway for OTPs",
+  "main": "gateway.js",
+  "type": "module",
+  "scripts": {
+    "start": "node gateway.js"
+  },
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.34.7"
+  }
+}
